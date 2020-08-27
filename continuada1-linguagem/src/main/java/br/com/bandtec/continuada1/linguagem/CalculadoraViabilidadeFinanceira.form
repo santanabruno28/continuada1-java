@@ -23,13 +23,184 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="429" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="lblQtdMeses" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="tfQtdMeses" min="-2" pref="107" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lblDescricaoDesc" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="lblCustoTecnico" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="tfCustoTecnico" min="-2" pref="96" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="lblQtdMaq" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="tfQtdMaquinas" min="-2" pref="83" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lblTitulo" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnBeneficios" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="lblEconBrutoAnual" pref="404" max="32767" attributes="0"/>
+                                          <Component id="lblEconTotal" max="32767" attributes="0"/>
+                                          <Component id="lblEconBrutoMensal" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="lblEconTotalPorc" max="32767" attributes="0"/>
+                                          <Component id="lblEconPorcAnual" max="32767" attributes="0"/>
+                                          <Component id="lblEconPorcMensal" alignment="1" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="lblTotalAPagar" min="-2" pref="236" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                      <Component id="lblValorAPagarMensal" min="-2" pref="262" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="lblValorAPagarAnual" min="-2" pref="207" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="327" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="lblTitulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblQtdMaq" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfQtdMaquinas" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblCustoTecnico" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfCustoTecnico" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblQtdMeses" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfQtdMeses" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblDescricaoDesc" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btnBeneficios" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblEconBrutoMensal" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="lblEconPorcMensal" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblEconBrutoAnual" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="lblEconPorcAnual" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="lblEconTotal" min="-2" pref="40" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblEconTotalPorc" min="-2" pref="37" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblValorAPagarMensal" min="-2" pref="40" max="-2" attributes="0"/>
+                  <Component id="lblTotalAPagar" min="-2" pref="40" max="-2" attributes="0"/>
+                  <Component id="lblValorAPagarAnual" min="-2" pref="40" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="45" max="32767" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
   </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTitulo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Century Schoolbook" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Calculadora de viabilidade financeira"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQtdMaq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quantas M&#xe1;quinas possui?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCustoTecnico">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Qual o custo de manuten&#xe7;&#xe3;o ou servi&#xe7;o pago &#xe0; um t&#xe9;cnico anualmente?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQtdMeses">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Por quantos meses pretende contratar nosso servi&#xe7;o?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfQtdMaquinas">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfQtdMaquinasActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfCustoTecnico">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfQtdMeses">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBeneficios">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calcular Benef&#xed;cios"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBeneficiosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEconBrutoMensal">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEconBrutoAnual">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEconPorcMensal">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEconPorcAnual">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDescricaoDesc">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(15% de desconto &#xe0; partir de 12 meses)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblValorAPagarMensal">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblValorAPagarAnual">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTotalAPagar">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEconTotal">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEconTotalPorc">
+    </Component>
+  </SubComponents>
 </Form>
